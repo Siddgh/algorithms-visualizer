@@ -7,7 +7,7 @@ from algorithms.initial_chart import display_initial_chart
 
 # Create some example data for the plots
 x = np.linspace(0, 10, 100)
-amount = 5
+amount = 10
 lst = np.random.randint(0, 100, amount)
 x = np.arange(0, amount, 1)
 

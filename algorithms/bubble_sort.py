@@ -3,10 +3,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
+import constants.colors as colors
+
 
 def perform_and_display_bubble_sort(x, lst):
     fig, ax = plt.subplots()
-    bar_plot = ax.bar(x, lst, color="blue")
+    bar_plot = ax.bar(x, lst, color=colors.BLUE)
     ax.set_xlabel("Index")
     ax.set_ylabel("Value")
     ax.set_title("Bubble Sort Visualization")
@@ -17,8 +19,8 @@ def perform_and_display_bubble_sort(x, lst):
     n = len(lst)
     for i in range(n):
         for j in range(0, n - i - 1):
-            bar_plot[j].set_color("orange")
-            bar_plot[j + 1].set_color("orange")
+            bar_plot[j].set_color(colors.ORANGE)
+            bar_plot[j + 1].set_color(colors.ORANGE)
             plot_placeholder.pyplot(fig)
 
             time.sleep(0.1)
@@ -28,6 +30,6 @@ def perform_and_display_bubble_sort(x, lst):
 
             bar_plot[j].set_height(lst[j])
             bar_plot[j + 1].set_height(lst[j + 1])
-            bar_plot[j].set_color("blue")
-            bar_plot[j + 1].set_color("blue")
+            bar_plot[j].set_color(colors.BLUE)
+            bar_plot[j + 1].set_color(colors.BLUE)
             plot_placeholder.pyplot(fig)
