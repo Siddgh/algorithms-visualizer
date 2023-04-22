@@ -1,4 +1,5 @@
 # Colors
-ORANGE = "#e67e22"
-BLUE = "#3498db"
+ORANGE = "#FF4B4B"
+BLUE = "#34495e"
 GREEN = "#2ecc71"
+RED = "#e74c3c"

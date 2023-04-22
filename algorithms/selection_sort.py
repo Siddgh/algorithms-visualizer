@@ -6,7 +6,7 @@ import time
 import constants.colors as colors
 
 
-def perform_and_display_bubble_sort(x, lst, title, speed):
+def perform_and_display_selection_sort(x, lst, title, speed):
     start_time = time.time()
     fig, ax = plt.subplots()
     bar_plot = ax.bar(x, lst, color=colors.BLUE)
@@ -19,20 +19,29 @@ def perform_and_display_bubble_sort(x, lst, title, speed):
 
     n = len(lst)
     for i in range(n):
-        for j in range(0, n - i - 1):
+        min_idx = i
+        for j in range(i + 1, n):
             bar_plot[j].set_color(colors.ORANGE)
-            bar_plot[j + 1].set_color(colors.ORANGE)
+            bar_plot[min_idx].set_color(colors.ORANGE)
             plot_placeholder.pyplot(fig)
 
             time.sleep(speed)
 
-            if lst[j] > lst[j + 1]:
-                lst[j], lst[j + 1] = lst[j + 1], lst[j]
+            if lst[j] < lst[min_idx]:
+                min_idx = j
 
             bar_plot[j].set_height(lst[j])
-            bar_plot[j + 1].set_height(lst[j + 1])
+            bar_plot[min_idx].set_height(lst[min_idx])
             bar_plot[j].set_color(colors.BLUE)
-            bar_plot[j + 1].set_color(colors.BLUE)
+            bar_plot[min_idx].set_color(colors.BLUE)
             plot_placeholder.pyplot(fig)
+        lst[i], lst[min_idx] = lst[min_idx], lst[i]
+
+        bar_plot[i].set_height(lst[i])
+        bar_plot[min_idx].set_height(lst[min_idx])
+        bar_plot[i].set_color(colors.BLUE)
+        bar_plot[min_idx].set_color(colors.BLUE)
+        plot_placeholder.pyplot(fig)
+
     end_time = time.time()
     return lst, round(end_time - start_time, 2)
