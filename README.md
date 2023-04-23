@@ -24,3 +24,13 @@ With customizable input data, adjustable parameters, and real-time comparisons, 
 
 ### Path-finding Algorithm Visualizer with Dynamic Nodes, Edges & Weights
 ![Path-finding Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_dynamicinput.gif)
+
+## Setup Project Locally
+This project makes use of Python and Streamlit for hosting the site locally.
+For setting up the project on your local machine, follow below steps
+1. Clone the repo to your local machine
+2. Go to the project directory and run `pip install requirements.txt` to install all the dependencies required for this project to run
+3. Run `streamlit run app.py`
+4. You should see app on your localhost now.
+
+Enjoy!!
