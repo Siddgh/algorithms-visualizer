@@ -14,16 +14,16 @@ With customizable input data, adjustable parameters, and real-time comparisons, 
 ## Screenshots
 
 ### Sorting Algorithm Visualizer with Custom Elements
-![Sorting Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_dynamicinput.gif)
+![Sorting Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_dynamicinput.gif | width=100)
 
 ### Sorting Algorithm Visualizer with Dynamic Elements
-![Sorting Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_custominput.gif)
+![Sorting Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_custominput.gif | width=100)
 
 ### Path-finding Algorithm Visualizer with Custom Nodes, Edges & Weights
-![Path-finding Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_custominput.gif)
+![Path-finding Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_custominput.gif | width=100)
 
 ### Path-finding Algorithm Visualizer with Dynamic Nodes, Edges & Weights
-![Path-finding Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_dynamicinput.gif)
+![Path-finding Algorithm Visualizer with Custom Input](https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_dynamicinput.gif | width=100)
 
 ## Setup Project Locally
 This project makes use of Python and Streamlit for hosting the site locally.
