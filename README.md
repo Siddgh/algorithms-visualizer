@@ -14,16 +14,16 @@ With customizable input data, adjustable parameters, and real-time comparisons, 
 ## Screenshots
 
 ### Sorting Algorithm Visualizer with Custom Elements
-<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_dynamicinput.gif" width="48">
+<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_dynamicinput.gif" width="500">
 
 ### Sorting Algorithm Visualizer with Dynamic Elements
-<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_custominput.gif" width="48">
+<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/sorting_custominput.gif" width="500">
 
 ### Path-finding Algorithm Visualizer with Custom Nodes, Edges & Weights
-<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_custominput.gif" width="48">
+<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_custominput.gif" width="500">
 
 ### Path-finding Algorithm Visualizer with Dynamic Nodes, Edges & Weights
-<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_dynamicinput.gif" width="48">
+<img src="https://github.com/Siddgh/algorithms-visualizer/blob/main/assets/pathfinding_dynamicinput.gif" width="500">
 
 ## Setup Project Locally
 This project makes use of Python and Streamlit for hosting the site locally.
