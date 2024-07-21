@@ -1,3 +1,4 @@
+Try it out: https://teachmealgo.streamlit.app 
 # algorithms-visualizer
 
 Welcome to the Algorithm Visualizer GitHub repository! 
